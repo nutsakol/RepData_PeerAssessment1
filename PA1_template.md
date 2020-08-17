@@ -140,7 +140,7 @@ plot1 <- ggplot(stepsPerDay,aes(steps)) + geom_histogram(bins = 15)
 plot1 +labs(title = "Histogram of step per day", x= "Steps")
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/nutsakol/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
 print(paste("Mean of total number of step per day is", round(mean(stepsPerDay$steps),digits = 2)))
@@ -518,13 +518,13 @@ plot3 <- ggplot(stepsPerDay_new,aes(steps)) + geom_histogram(bins = 15)
 plot1 +labs(title = "Old histogram of step per day", x= "Steps") + ylim(0,25)
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/nutsakol/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
 plot3 +labs(title = "New histogram of step per day", x= "Steps")+ ylim(0,25)
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
+![](https://github.com/nutsakol/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
 
 The new histogram seem to have more number of 10,000 count.
 
@@ -588,4 +588,4 @@ plot4<- ggplot(activity_by_date, aes(x = interval , y = steps, color = day)) +
 plot4
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/nutsakol/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
